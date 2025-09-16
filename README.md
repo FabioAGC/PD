@@ -4,10 +4,10 @@ PD Soluções – Gerenciamento de Acesso (Java)
 ### Interface Web Adicionada
 - 🌐 **Servidor web embarcado** (Javalin) na porta configurável
 - 🔐 **4 botões principais**:
-  - Register User (cadastro)
-  - List Users (listagem)
-  - Open Door 1/2 (liberação de portas)
-  - Events (Admin) (eventos)
+     - Register User (cadastro)
+     - List Users (listagem)
+     - Open Door 1/2 (liberação de portas)
+     - Events (Admin) (eventos)
 - 📱 Totalmente responsiva (mobile, tablet, desktop)
 - 🔄 Feedback visual com status coloridos
 - ⚡ Validação em tempo real e tratamento de erros
@@ -26,9 +26,11 @@ sh scripts/start.sh
 
 # Windows PowerShell
 powershell -ExecutionPolicy Bypass -File scripts/start.ps1
+```
 
+###
 
-### Acesso às Interfaces
+Acesso às Interfaces
 - **Interface Web**: `http://localhost:8081` (porta configurável)
 - **Menu Serial**: Console interativo (mantido como teste)
 
